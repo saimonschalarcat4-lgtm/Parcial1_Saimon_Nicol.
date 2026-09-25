@@ -8,13 +8,13 @@ public class Proyecto {
     private static final int MAX_DESARROLLADORES = 10;
     private static final int MAX_SERVICIOS = 10;
 
-    // Atributos privados (
+    // Atributos privados
     private String codigo;
     private String fechaSolicitud;
     private String fechaInicio;
     private String fechaEntrega;
-    private String estado; // Ej: "Pendiente", "Confirmado", "Finalizado" (String, no enum)
-    private String metodoPago; // Ej: "Efectivo", "Transferencia", "Tarjeta" (String, no enum)
+    private String estado; // Ej: "Pendiente", "Confirmado", "Finalizado"
+    private String metodoPago; // Ej: "Efectivo", "Transferencia", "Tarjeta"
     private double valorTotal;
     private int diasDesarrollo;
 

@@ -1,11 +1,12 @@
-package co.edu.uniquindio.parcial1;
-
+/**
+ * Clase que representa a un desarrollador de DevPlus.
+ */
 public class Desarrollador {
 
     // Atributos privados
     private String codigo;
     private String equipoTrabajo;
-    private String nivel; //  "Junior", "Semi Senior", "Senior" )
+    private String nivel; // "Junior", "Semi Senior", "Senior"
     private int cantidadMaximaProyectos;
     private double tarifaPorDia;
     private String estado; // "Disponible", "Asignado", "Ocupado"
@@ -36,7 +37,7 @@ public class Desarrollador {
         }
     }
 
-    // Getters y Setters
+    // ---------- Getters y Setters ----------
     public String getCodigo() {
         return codigo;
     }
@@ -85,8 +86,8 @@ public class Desarrollador {
         this.estado = estado;
     }
 
-
     public String obtenerInformacion() {
         return "[" + codigo + "] " + equipoTrabajo + " - Nivel: " + nivel
                 + " - Tarifa/día: $" + tarifaPorDia + " - Estado: " + estado;
     }
+} // <-- Esta llave faltaba: la clase quedaba sin cerrar y el archivo no compilaba.

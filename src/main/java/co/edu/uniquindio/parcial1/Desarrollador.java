@@ -90,4 +90,3 @@ public class Desarrollador {
         return "[" + codigo + "] " + equipoTrabajo + " - Nivel: " + nivel
                 + " - Tarifa/día: $" + tarifaPorDia + " - Estado: " + estado;
     }
-} // <-- Esta llave faltaba: la clase quedaba sin cerrar y el archivo no compilaba.
